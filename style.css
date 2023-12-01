@@ -5,36 +5,40 @@
   body {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
+    background-color: #176B87;
   }
 
   header{
     padding: 50px;
     text-align: left;
-    background-color:
-    color:
+    background-color: #053B50;
+    color: #EEEEEE;
   }
 
-  img{
-    display: flex;
-    text-align:right;
-    justify-content: flex-end;
-    height: 200px
+  img{    
+    height: 200px;
+    width: 200px;
+    border-radius: 15px;
+    position: absolute;
+    right: 100px;
+    top: 15px;
+    
   }
 
   .navbar{
     display: flex;
-    background-color: ;
+    background-color: #64CCC5;
   }
 
   .navbar a{
-    color: black;
+    color: #EEEEEE;
   padding: 14px 20px;
   text-decoration: none;
   text-align: center;
   }
 
   .navbar a:hover {
-    background-color: #ddd;
+    background-color: #EEEEEE;
     color: black;
   }
 
@@ -45,20 +49,51 @@
 
   .sectionleft{
     flex: 30%;
-  background-color: #f1f1f1;
+  background-color: #176B87;
   padding: 20px;
   }
 
   .sectionright{
     flex: 70%;
-  background-color: #f1f1f1;
+  background-color: #176B87;
   padding: 20px;
+  }
+
+  form{
+    width:50%;
+    margin:  auto;
+  }
+
+  input[type=text], textarea {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  input[type=submit] {
+    width: 50%;
+    background-color: #64CCC5;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
   }
 
   footer{
     padding: 20px;
     text-align: center;
-    background: #ddd;
+    background: #053B50;
+    color: #EEEEEE;
   }
 
   @media screen and (max-width: 700px) {
